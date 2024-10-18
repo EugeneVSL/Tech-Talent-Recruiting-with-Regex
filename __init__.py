@@ -21,7 +21,5 @@ for ind in resumes.index:
             "education": [education]
         }
 
-        print(new_record)
-
-        candidates_df.loc[len(candidates_df)] = new_record
+        candidates_df.loc[len(candidates_df)] = new_record  # store it into the new dataframe
 
